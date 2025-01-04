@@ -73,4 +73,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
+    // Adicionar manipulador para eventos de navegação
+    window.addEventListener('popstate', function() {
+        // Recarregar HTML do header e footer em cada navegação
+        loadHTML('header', 'components/header.html');
+        loadHTML('footer', 'components/footer.html');
+    });
 });
