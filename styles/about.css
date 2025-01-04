@@ -1,0 +1,119 @@
+/*----- \/ Header Menu Styles \/ -----*/
+
+.header-menu {
+    background-color: #333; /* Dark background for the header */
+    color: white; /* White text color */
+    padding: 10px 0;
+    text-align: center; /* Ensures items align in the center vertically */
+}
+
+.header-menu nav ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center items horizontally */
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Add spacing between items */
+}
+
+.header-menu nav ul li {
+    display: inline; /* Keep list items inline */
+}
+
+.header-menu nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px; /* Add padding for clickable area */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.header-menu nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px; /* Rounded edges on hover */
+}
+
+/*----- /\ Header Menu Styles /\ -----*/
+
+/*----- \/ Html and Body Styles \/ -----*/
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Intende to avoid horizontal rolling */
+    height: 100%;
+}
+
+main {
+    min-height: calc(100vh - 38.4px - 60.8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    /*text-align: center;*/
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 10px;
+}
+
+p {
+    color: #222;
+    font-size: 1.1rem;
+    margin: 10px 0px;
+}
+
+/*----- /\ Html and Body Styles /\ -----*/
+
+.hover {
+    width: 100%;
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #3498db;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.hover:hover {
+    transform: scale(1.02);
+}
+
+#education h2 {
+    text-align: center;
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tech-stack h2 {
+    text-align: center;
+}
+
+/*----- \/ Footer Styles \/ -----*/
+
+.footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    text-align: center; /* Center align the text vertically */
+    padding: 10px 0; /* Add some padding to the top and bottom */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    margin-top: 20px; /* Space above the footer */
+}
+
+.footer p {
+    color: white; /* White text color */
+}
+
+/*----- /\ Footer Styles /\ -----*/
