@@ -1,0 +1,151 @@
+/*----- \/ Html and Body Styles \/ -----*/
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Intende to avoid horizontal rolling */
+    height: 100%;
+}
+
+main {
+    min-height: calc(100vh - 38.4px - 60.8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+p {
+    color: #222;
+    font-size: 1.1rem;
+    margin: 10px 0px;
+}
+
+/*----- /\ Html and Body Styles /\ -----*/
+
+/* \/ Profile Picture Styles \/ */
+
+.profile-pic-container{
+    width: 15rem;
+    height: 15rem;
+    margin: -8px auto 27px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    border: 3px solid #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* /\ Profile Picture Styles /\ */
+
+
+/* \/ Skills Styles \/ */
+
+.skills-container {
+    display: grid; /*Use grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Use grid columns */
+    gap: 10px; /* Spacing between items */
+    padding: 20px;
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.skill {
+    text-align: center;
+    padding: 7px;
+}
+
+.skill img {
+    padding: 12px;
+    transition: transform 0.3s ease, filter 0.3s;
+}
+
+.skill img:hover {
+    transform: scale(1.7); /* Increase scaling effect */
+    filter: brightness(1.2); /* Make the icon brighter */
+}
+
+.skill p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* /\ Skills Styles /\ */
+
+/*----- \/ Header Menu Styles \/ -----*/
+
+.header-menu {
+    background-color: #333; /* Dark background for the header */
+    color: white; /* White text color */
+    padding: 10px 0;
+    text-align: center; /* Ensures items align in the center vertically */
+}
+
+.header-menu nav ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center items horizontally */
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Add spacing between items */
+}
+
+.header-menu nav ul li {
+    display: inline; /* Keep list items inline */
+}
+
+.header-menu nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px; /* Add padding for clickable area */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.header-menu nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px; /* Rounded edges on hover */
+}
+
+/*----- /\ Header Menu Styles /\ -----*/
+
+/*----- \/ Footer Styles \/ -----*/
+
+.footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    text-align: center; /* Center align the text vertically */
+    padding: 10px 0; /* Add some padding to the top and bottom */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    margin-top: 20px; /* Space above the footer */
+}
+
+.footer p {
+    color: white; /* White text color */
+}
+
+/*----- /\ Footer Styles /\ -----*/
