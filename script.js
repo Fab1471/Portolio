@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Detecta se está no GitHub Pages e ajusta os links
-    const isGitHubPages = window.location.hostname === 'username.github.io'; // Substitua 'username' pelo seu nome de usuário
+    const isGitHubPages = window.location.hostname === 'fab1471.github.io'; // Substitua 'username' pelo seu nome de usuário
     const repoName = 'Portfolio'; // Nome do seu repositório no GitHub
 
     if (isGitHubPages) {
