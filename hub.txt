@@ -4,6 +4,7 @@ git add .  # Adiciona todos os arquivos ao staging
 git commit -m "port.1"
 git remote add origin https://github.com/<username>/<repository-name>.git
 git push -u origin master  # ou git push -u origin main
+git push origin main
 
 
 portfolio/
