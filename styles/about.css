@@ -67,7 +67,7 @@ h1 {
 
 h2 {
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     font-family: 1.5rem;
     color: #333;
 }
@@ -82,23 +82,24 @@ p {
 
 /* ----\/ Card Styles ---- \/ */
 
-#about-section {
+.cards-intro {
     display: grid; /* Using grid to make cards */
-    grid-template-columns: 1fr 1fr; /* Automatically adjust the columns*/
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: repeat(1, 350px); /* Automatically adjust the columns*/
     gap: 20px;
     margin-top: 20px;
 }
 
-#education-section {
+.cards-education {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     margin-top: 20px;
 }
 
-#hobbies-section{
+.cards-hobbies{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px;
 }
