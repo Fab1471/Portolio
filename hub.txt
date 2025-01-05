@@ -36,3 +36,36 @@ oq vc já fez?
 oq eu posso fazer por vc… - meus serviçoes contratáveis
 
 inserir soft skills
+
+
+
+________________
+
+About Me
+Introduction
+Hello! I'm Fabrício Figueiredo, a Backend Developer with a passion for Python and Django. I specialize in creating scalable, efficient backend solutions that power modern web applications. I'm always eager to learn new technologies and push the boundaries of what’s possible.
+
+Alongside backend development, I have a growing interest in artificial intelligence and automation. I enjoy discovering how these technologies can streamline workflows and enhance productivity. I have an interest in web scraping as a way to gather data and insights, and I appreciate Kivy for crafting engaging graphical user interfaces. In my free time, I’ve explored Pygame as a hobby, experimenting with game development, but I'm still learning how to create interactive games and multimedia applications. These interests keep me curious and ready to take on new challenges!
+
+I intend to study how to build REST APIs, along with mastering CRUD operations using PostgreSQL and React. This knowledge will not only enhance my skill set but also help me create more dynamic and interactive applications. While my focus is on backend development, I also want to learn at least the basics of frontend development for my personal projects and to better understand how everything works together. I'm excited to explore these technologies in the future and showcase my projects.
+
+Education
+Graduated in Pedagogy - Unicesumar
+
+Graduated in Languages (Portuguese/English) - Unicesumar
+
+Currently pursuing a degree in Analysis and Systems Development - Unicesumar (expected completion in 2025)
+
+Postgraduate in Neurolearning - Unicesumar
+
+Postgraduate in Higher Education Teaching - Unicesumar (expected completion in 2025)
+
+Hobbies
+Apart from coding, I love
+playing music on various instruments like guitar, ukulele, piano and viola,
+
+Cycling my bicicle
+
+and I enjoy exploring the intersection of technology and education.
+
+________________
