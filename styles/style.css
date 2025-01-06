@@ -4,6 +4,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     overflow-x: hidden; /* Intende to avoid horizontal rolling */
     height: 100%;
 }
@@ -18,12 +19,16 @@ main {
 main {
     text-align: center;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-size: 2.5rem;
-    margin-top: 10px;
+    margin-top: 12px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -63,7 +68,7 @@ p {
 
 /* \/ Skills Styles \/ */
 
-.skills-container {
+.technologies-container {
     display: grid; /*Use grid for layout */
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Use grid columns */
     gap: 10px; /* Spacing between items */
@@ -72,22 +77,22 @@ p {
     align-items: center; /* Center items vertically */
 }
 
-.skill {
+.tech {
     text-align: center;
     padding: 7px;
 }
 
-.skill img {
+.tech img {
     padding: 12px;
     transition: transform 0.3s ease, filter 0.3s;
 }
 
-.skill img:hover {
+.tech img:hover {
     transform: scale(1.7); /* Increase scaling effect */
     filter: brightness(1.2); /* Make the icon brighter */
 }
 
-.skill p {
+.tech p {
     margin-top: 5px;
     font-size: 0.9rem;
     font-weight: bold;

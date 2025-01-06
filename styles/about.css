@@ -79,7 +79,44 @@ p {
 
 /* ---- /\ Main Content Styles /\ ---- */
 
-/*EDIT___HERE*/
+/* \/ Skills Styles \/ */
+
+.tech-container {
+    display: grid; /*Use grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Use grid columns */
+    gap: 10px; /* Spacing between items */
+    padding: 20px;
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.tech {
+    text-align: center;
+    padding: 7px;
+}
+
+.tech img {
+    width: 64px;
+    height: 64px;
+    padding: 12px;
+    max-width: 100%;
+    max-height: 100px;
+    transition: transform 0.3s ease, filter 0.3s;
+}
+
+.tech img:hover {
+    transform: scale(1.7); /* Increase scaling effect */
+    filter: brightness(1.2); /* Make the icon brighter */
+}
+
+.tech p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* /\ Skills Styles /\ */
 
 /*----- \/ Footer Styles \/ -----*/
 
