@@ -5,6 +5,8 @@
     color: white; /* White text color */
     padding: 10px 0;
     text-align: center; /* Ensures items align in the center vertically */
+    position: relative; /*Ensure header is positioned */
+    z-index: 10; /* Set a high z-index to ensure it is above the background image */
 }
 
 .header-menu nav ul {
@@ -66,6 +68,7 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-bottom: 90px;
 }
 
 h1 {
@@ -196,10 +199,14 @@ min-height: 150px;
     padding: 10px 0; /* Add some padding to the top and bottom */
     font-size: 0.9rem; /* Slightly smaller font size */
     margin-top: 20px; /* Space above the footer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 79.15px; /* remove after solving the footer*/
 }
 
 .footer p {
     color: white; /* White text color */
+    margin: 0;
+    line-height: 34.15px;
 }
-
-/*----- /\ Footer Styles /\ -----*/
