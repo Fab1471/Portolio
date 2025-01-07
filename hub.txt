@@ -102,8 +102,9 @@ Contraste e Espaçamento: Garanta que o contraste entre o texto e o fundo seja b
 Sobre o posicionamento da parte de "Tecnologias" e "Educação", você pode colocá-las de acordo com o seu foco. Se a tecnologia for sua principal área, coloque antes da educação. Caso queira dar ênfase ao seu conhecimento acadêmico e como isso sustenta sua carreira, pode colocá-la logo após a introdução.
 
 features to fix/add: {
-  fix tks-page
   style tks-page
+  fix tks-page
+  implement scrolling in projects section
   implement pt-br translation
   implement dark-mode
 }
