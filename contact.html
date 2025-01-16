@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div id="header"></div>
+    <main>
+        <div class="img-content">
+            <img src="../staticfiles/contact_images/wam.png" alt="Contact-Me">
+        </div>
+        <section>
+            <p>If you'd like to get in touch, feel free to reach out to me through the following platforms:</p>
+            <div class="icons-container">
+                <ul>
+                    <li>
+                        <img src="../staticfiles/contact_images/whatsapp.png" alt="WhatsApp">
+                        <a href="https://wa.me/447404769743" target="_blank">WhatsApp</a>
+                    </li>
+                    <li>
+                        <img src="../staticfiles/contact_images/linkedin.png" alt="LinkedIn">
+                        <a href="https://www.linkedin.com/in/fabr%C3%ADcio-figueiredo-3b56a7250/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <img src="../staticfiles/contact_images/gmail.png" alt="Mail">
+                        <a href="mailto:ism.fabri@gmail.com">Mail</a>
+                    </li>
+                    <li>
+                        <img src="../staticfiles/contact_images/github.png" alt="GitHub">
+                        <a href="https://github.com/Fab1471" target="_blank">GitHub</a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <h2>Send Me a Message</h2>
+            <form action="https://formspree.io/f/<your_form_id>" method="POST"></form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message"></textarea><br><br>
+
+                <input type="hidden" name="_redirect" value="/pages/tks-confirmation.html">
+
+                <input type="text" name="_gotcha" style="display:none">
+
+                <input type="hidden" name="_subject" value="New submission from Fabrício Figueiredo's Portfolio">
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <div id="footer"></div>
+</body>
+</html>
