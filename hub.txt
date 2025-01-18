@@ -108,4 +108,5 @@ features to fix/add: {
   implement scrolling in projects section
   implement pt-br translation
   implement dark-mode
+  add postman in the learning technologies
 }
