@@ -8,7 +8,7 @@ function loadHTML(divID, filepath) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-        loadHTML('header', 'pages/components/header.html');
+        loadHTML('header', 'components/header.html');
         loadHTML('footer', 'components/footer.html');      
 });
 
