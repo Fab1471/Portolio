@@ -8,8 +8,8 @@ function loadHTML(divID, filepath) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-        loadHTML('header', '../components/header.html');
-        loadHTML('footer', '../components/footer.html');      
+        loadHTML('header', 'pages/components/header.html');
+        loadHTML('footer', 'components/footer.html');      
 });
 
 document.addEventListener('DOMContentLoaded', function() {
