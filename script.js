@@ -8,14 +8,8 @@ function loadHTML(divID, filepath) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    const pagePath = window.location.pathname;
-    if (pagePath.includes('/pages/')) {
         loadHTML('header', '../components/header.html');
-        loadHTML('footer', '../components/footer.html');
-    } else {
-        loadHTML('header', 'components/header.html');
-        loadHTML('footer', 'components/footer.html');      
-    }
+        loadHTML('footer', '../components/footer.html');      
 });
 
 document.addEventListener('DOMContentLoaded', function() {
